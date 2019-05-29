@@ -21,7 +21,6 @@ def reformat_languages(languages)
     new_hash[names] = types
     new_hash[names][:style] = [lang_style]
     new_hash[:javascript][:style]<< :functional
-    
     end
   end
   new_hash
