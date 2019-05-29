@@ -20,7 +20,7 @@ def reformat_languages(languages)
     lang_names.each do |names, types|
     new_hash[names] = types
     new_hash[names][:style] = [lang_style]
-    new_hash[:javascript][:style]<< :functional
+    new_hash[:javascript][:style]<< :oo
     end
   end
   new_hash
